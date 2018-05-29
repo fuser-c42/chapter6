@@ -41,7 +41,7 @@ int main()
     account1 = BankAccount(999, 99, 5.5);
     cout << "Account1 reset to the following:\n";
     account1.output(cout);
-    return 0;
+    return 0; //this is cool
 }
 
 BankAccount::BankAccount(int dollars, int cents, double rate)
